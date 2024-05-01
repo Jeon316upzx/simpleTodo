@@ -1,0 +1,15 @@
+{
+  "name": "simpletodo",
+  "version": "1.0.0",
+  "description": "a simple graphql todo app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "todo",
+    "graphql"
+  ],
+  "author": "ifeanyi anuebunwa",
+  "license": "ISC"
+}
