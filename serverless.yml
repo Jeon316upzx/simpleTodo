@@ -1,0 +1,20 @@
+service: graphql-api
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+  stage: dev
+  region: us-east-1
+
+functions:
+  graphql:
+    handler: index.graphqlHandler
+    events:
+      - http:
+          path: /
+          method: post
+          cors: true
+      - http:
+          path: /
+          method: get
+          cors: true
